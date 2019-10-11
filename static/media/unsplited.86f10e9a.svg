@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="859" height="343" viewBox="0 0 859 343">
+  <g id="グループ_1" data-name="グループ 1" transform="translate(-171 -84)">
+    <g id="長方形_1" data-name="長方形 1" transform="translate(171 84)" fill="none" stroke="#707070" stroke-width="15">
+      <rect width="250" height="164" rx="10" stroke="none"/>
+      <rect x="7.5" y="7.5" width="235" height="149" rx="2.5" fill="none"/>
+    </g>
+    <g id="パス_2" data-name="パス 2" transform="translate(171 263)">
+      <path id="パス_1" data-name="パス 1" d="M10,0H240a10,10,0,0,1,10,10V154a10,10,0,0,1-10,10H10A10,10,0,0,1,0,154V10A10,10,0,0,1,10,0Z" fill="none"/>
+      <path id="パス_2-2" data-name="パス 2" d="M15,15V149H235V15H15M10,0H240a10,10,0,0,1,10,10V154a10,10,0,0,1-10,10H10A10,10,0,0,1,0,154V10A10,10,0,0,1,10,0Z" fill="#707070"/>
+    </g>
+    <g id="パス_1-2" data-name="パス 1" transform="translate(780 84)">
+      <path id="パス_3" data-name="パス 3" d="M10,0H240a10,10,0,0,1,10,10V333a10,10,0,0,1-10,10H10A10,10,0,0,1,0,333V10A10,10,0,0,1,10,0Z" fill="none"/>
+      <path id="パス_4" data-name="パス 4" d="M15,15V328H235V15H15M10,0H240a10,10,0,0,1,10,10V333a10,10,0,0,1-10,10H10A10,10,0,0,1,0,333V10A10,10,0,0,1,10,0Z" fill="#707070"/>
+    </g>
+    <g id="グループ_2" data-name="グループ 2" transform="translate(138.118 27.118)">
+      <g id="グループ_1-2" data-name="グループ 1" transform="translate(-146.94 -518.764) rotate(45)">
+        <line id="線_1" data-name="線 1" x2="48" transform="translate(960 48)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="15"/>
+        <line id="線_2" data-name="線 2" y1="48" transform="translate(1008 48)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="15"/>
+      </g>
+      <line id="線_3" data-name="線 3" x2="136" transform="translate(392 228)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="15"/>
+    </g>
+    <line id="線_1-2" data-name="線 1" x2="153" transform="translate(219.5 126.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-3" data-name="線 1" x2="153" transform="translate(219.5 164.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-4" data-name="線 1" x2="153" transform="translate(219.5 202.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-5" data-name="線 1" x2="153" transform="translate(219.5 306.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-6" data-name="線 1" x2="153" transform="translate(219.5 344.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-7" data-name="線 1" x2="153" transform="translate(219.5 382.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-8" data-name="線 1" x2="153" transform="translate(828.5 135.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-9" data-name="線 1" x2="153" transform="translate(828.5 173.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-10" data-name="線 1" x2="153" transform="translate(828.5 211.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-11" data-name="線 1" x2="153" transform="translate(828.5 249.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-12" data-name="線 1" x2="153" transform="translate(828.5 287.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-13" data-name="線 1" x2="153" transform="translate(828.5 325.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+    <line id="線_1-14" data-name="線 1" x2="153" transform="translate(828.5 363.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="10"/>
+  </g>
+</svg>

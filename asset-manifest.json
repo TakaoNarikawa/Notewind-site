@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Notewind-site/static/css/main.b100e6da.chunk.css",
-    "main.js": "/Notewind-site/static/js/main.86b5556e.chunk.js",
-    "main.js.map": "/Notewind-site/static/js/main.86b5556e.chunk.js.map",
-    "runtime-main.js": "/Notewind-site/static/js/runtime-main.3ab95dc9.js",
-    "runtime-main.js.map": "/Notewind-site/static/js/runtime-main.3ab95dc9.js.map",
-    "static/js/2.14c4eeb1.chunk.js": "/Notewind-site/static/js/2.14c4eeb1.chunk.js",
-    "static/js/2.14c4eeb1.chunk.js.map": "/Notewind-site/static/js/2.14c4eeb1.chunk.js.map",
+    "main.css": "/Notewind-site/static/css/main.34de6062.chunk.css",
+    "main.js": "/Notewind-site/static/js/main.0c58f4e4.chunk.js",
+    "main.js.map": "/Notewind-site/static/js/main.0c58f4e4.chunk.js.map",
+    "runtime-main.js": "/Notewind-site/static/js/runtime-main.5d9a5490.js",
+    "runtime-main.js.map": "/Notewind-site/static/js/runtime-main.5d9a5490.js.map",
+    "static/js/2.a33e390c.chunk.js": "/Notewind-site/static/js/2.a33e390c.chunk.js",
+    "static/js/2.a33e390c.chunk.js.map": "/Notewind-site/static/js/2.a33e390c.chunk.js.map",
     "index.html": "/Notewind-site/index.html",
-    "precache-manifest.52823e7bb886e93cbee64e7339511c64.js": "/Notewind-site/precache-manifest.52823e7bb886e93cbee64e7339511c64.js",
+    "precache-manifest.7851fa6868cccc5a59ed55822c193b25.js": "/Notewind-site/precache-manifest.7851fa6868cccc5a59ed55822c193b25.js",
     "service-worker.js": "/Notewind-site/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/Notewind-site/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/Notewind-site/static/media/logo.25bf045c.svg"
+    "static/css/main.34de6062.chunk.css.map": "/Notewind-site/static/css/main.34de6062.chunk.css.map",
+    "static/media/code.svg": "/Notewind-site/static/media/code.bb36b79e.svg",
+    "static/media/combination.svg": "/Notewind-site/static/media/combination.aad1de2f.svg",
+    "static/media/logo.png": "/Notewind-site/static/media/logo.f1b85863.png",
+    "static/media/unsplited.svg": "/Notewind-site/static/media/unsplited.86f10e9a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ab95dc9.js",
-    "static/js/2.14c4eeb1.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.86b5556e.chunk.js"
+    "static/js/runtime-main.5d9a5490.js",
+    "static/js/2.a33e390c.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.0c58f4e4.chunk.js"
   ]
 }
