@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4672c4c41a3ae0b08ca31ebdf5ec724",
+    "revision": "928c93889632c916e6a4429181cff5df",
     "url": "/Notewind-site/index.html"
   },
   {
-    "revision": "ef2526e4af430856d4ea",
+    "revision": "7d9159d742bd4146083f",
     "url": "/Notewind-site/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "ba496eb8f88f28a442ff",
-    "url": "/Notewind-site/static/js/2.195250b5.chunk.js"
+    "revision": "d044367719e643032616",
+    "url": "/Notewind-site/static/js/2.7bf98b83.chunk.js"
   },
   {
-    "revision": "ef2526e4af430856d4ea",
-    "url": "/Notewind-site/static/js/main.4f2469da.chunk.js"
+    "revision": "7d9159d742bd4146083f",
+    "url": "/Notewind-site/static/js/main.07cce3ce.chunk.js"
   },
   {
     "revision": "10875109246df3bf627e",
