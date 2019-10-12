@@ -1,0 +1,2 @@
+# Redirect
+RedirectMatch 301 (.*) https://caprolactam2450.github.io/Notewind-site/
