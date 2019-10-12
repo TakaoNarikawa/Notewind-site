@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cf56cd21083242e1e69b24f2fdcc1b3",
+    "revision": "6a7370760d5d7fe9d6409cac9eb65336",
     "url": "/Notewind-site/index.html"
   },
   {

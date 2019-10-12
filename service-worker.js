@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Notewind-site/precache-manifest.dbf5496ba588ec34f470585396e1cbe5.js"
+  "/Notewind-site/precache-manifest.b90d9c921b986f14fcac366c69ed0b35.js"
 );
 
 self.addEventListener('message', (event) => {
