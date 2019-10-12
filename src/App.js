@@ -1,130 +1,69 @@
 import React from 'react';
 import styled from 'styled-components'
-import YouTube from 'react-youtube';
 
-// icon
-import logo from './icons/logo.png';
-import combinationIcon from './icons/combination.svg'
-import unsplitedIcon from './icons/unsplited.svg'
-import codeIcon from './icons/code.svg'
+import Content from './Content.js'
 
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
 import Button from '@material-ui/core/Button';
 import { style } from '@material-ui/system';
 
-function App() {
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
-  const url = "https://apps.apple.com/us/app/notewind/id1482532727";
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import { Input } from '@material-ui/core';
 
-  const AppWrapper = styled.div`
-  text-align: center;
-  `
-  const HeaderWrapper = styled.div`
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  `
+function App(props) {
+  const handleChange = event => {
+    props.history.push('/Notewind-site/' + event.target.value)
+  };
 
-  const BodyWrapper = styled.div`
-  padding: 10vmin;
-  `
-
-  const FooterWrapper = styled.div`
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  const AppBarWrapper = styled.div`
   `
 
-  const Logo = styled.img`
-    height: 40vmin;
+  const SelectBoxWrapper = styled.div`
+    margin-left: auto;
   `
 
-  const FeatureIcon = styled.img`
-    height: 15vmin;
-    padding: 4vmin;
-  `
-
-  const H1 = styled.h1`
-    padding-top: 4vmin;
-  `
-
-  const StyledYouTube = styled(YouTube)`
-    max-width: 80vw
+  const StyledSelect = styled(Select)`
+    width: 100px;
   `
 
   return (
-    <AppWrapper>
-      <HeaderWrapper>
-        <Logo src={logo} className="App-logo" alt="logo" />
-        <h1>Notewind</h1>
-        <p>
-          Any websites turn to your notebook.
-        </p>
+    <AppBarWrapper >
+      <AppBar
+        position='absolute'
+        style={{ background: 'transparent', boxShadow: 'none' }} // styledComponent適応できず
+      >
+        <Toolbar>
 
-        <Button
-          variant="contained"
-          color="secondary"
-          href={url}
-          startIcon={<ArrowDownward />}
-        >
-          Download
-      </Button>
+          <SelectBoxWrapper>
+            <FormControl>
+              <StyledSelect
+                value={props.lang}
+                onChange={handleChange}
+                style={{ color: 'white' }}
+              >
+                <MenuItem value={'en'}>English</MenuItem>
+                <MenuItem value={'jp'}>日本語</MenuItem>
+              </StyledSelect>
+            </FormControl>
+          </SelectBoxWrapper>
 
-      </HeaderWrapper>
-      <BodyWrapper>
-        <StyledYouTube
-          videoId="NKWGgBCmu6A"
-        // opts={}
-        // onReady={}
-        />
-        <H1>
-          Combination of Note and Browser
-        </H1>
-        <FeatureIcon src={combinationIcon} />
+        </Toolbar>
+      </AppBar>
 
-        <p>
-          This is not only note app, but also web app.
-        </p>
-        <p>
-          You can move to other site. Then you can begin new note.
-        </p>
-
-        <H1>
-          Unsplit View
-        </H1>
-        <FeatureIcon src={unsplitedIcon} />
-        <p>
-          You don't need to convert to PDF anymore.
-        </p>
-        <p>
-          You can write on continuous page.
-        </p>
-
-        <H1>
-          Native Functions
-        </H1>
-        <FeatureIcon src={codeIcon} />
-        <p>
-          Every web browser function
-        </p>
-        <p>
-          such as GIF image and javascript works correctly.
-        </p>
-      </BodyWrapper>
-
-      <FooterWrapper>
-        Copyright © Caprolactam2450 all rights reserved.
-      </FooterWrapper>
-    </AppWrapper>
+      <Content
+        lang={props.lang}
+      />
+    </AppBarWrapper >
   );
 }
 
