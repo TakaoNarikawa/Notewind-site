@@ -10,6 +10,7 @@ import codeIcon from './icons/code.svg'
 
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
 import Button from '@material-ui/core/Button';
+import { style } from '@material-ui/system';
 
 function App() {
 
@@ -56,6 +57,10 @@ function App() {
     padding-top: 4vmin;
   `
 
+  const StyledYouTube = styled(YouTube)`
+    max-width: 80vw
+  `
+
   return (
     <AppWrapper>
       <HeaderWrapper>
@@ -76,7 +81,7 @@ function App() {
 
       </HeaderWrapper>
       <BodyWrapper>
-        <YouTube
+        <StyledYouTube
           videoId="NKWGgBCmu6A"
         // opts={}
         // onReady={}

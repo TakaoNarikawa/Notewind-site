@@ -1,9 +1,3 @@
----
-title: Notewind - Any websites turn to your notebook
-description: Notewind is a notebook combined with web browser. You can take notes as if you are writing on web browser
-using Apple Pencil.
----
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +6,8 @@ using Apple Pencil.
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="description"
+    content="Notewind is a notebook combined with web browser. You can take notes as if you are writing on web browser using Apple Pencil." />
   <link rel="apple-touch-icon" href="logo192.png" />
   <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -29,8 +24,16 @@ using Apple Pencil.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Notewind</title>
-  {% include head.html %}
-  {% seo %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137014706-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137014706-2');
+  </script>
 </head>
 
 <body>
