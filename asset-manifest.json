@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Notewind-site/static/css/main.34de6062.chunk.css",
-    "main.js": "/Notewind-site/static/js/main.aa57df66.chunk.js",
-    "main.js.map": "/Notewind-site/static/js/main.aa57df66.chunk.js.map",
+    "main.js": "/Notewind-site/static/js/main.d6c27339.chunk.js",
+    "main.js.map": "/Notewind-site/static/js/main.d6c27339.chunk.js.map",
     "runtime-main.js": "/Notewind-site/static/js/runtime-main.5d9a5490.js",
     "runtime-main.js.map": "/Notewind-site/static/js/runtime-main.5d9a5490.js.map",
     "static/js/2.b6286c4b.chunk.js": "/Notewind-site/static/js/2.b6286c4b.chunk.js",
     "static/js/2.b6286c4b.chunk.js.map": "/Notewind-site/static/js/2.b6286c4b.chunk.js.map",
     "index.html": "/Notewind-site/index.html",
-    "precache-manifest.67d11f2894a4cee1fc9e101720276297.js": "/Notewind-site/precache-manifest.67d11f2894a4cee1fc9e101720276297.js",
+    "precache-manifest.781116de2b680593cbd6bbf1b6c0f2fb.js": "/Notewind-site/precache-manifest.781116de2b680593cbd6bbf1b6c0f2fb.js",
     "service-worker.js": "/Notewind-site/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/Notewind-site/static/css/main.34de6062.chunk.css.map",
     "static/media/code.svg": "/Notewind-site/static/media/code.bb36b79e.svg",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.5d9a5490.js",
     "static/js/2.b6286c4b.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.aa57df66.chunk.js"
+    "static/js/main.d6c27339.chunk.js"
   ]
 }
